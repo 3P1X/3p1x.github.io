@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bottom-part {
+  display: flex;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 2s linear;
+  height: 35vmin;
+  pointer-events: none;
+  margin-bottom: 5vmin;
+}
+
+.Epic-logo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Epic-text {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 20vmin;
+  color: #71DB77;
+}
+
+.Parsa {
+  font-size: 2vmin;
+  font-family: 'Lalezar', cursive;
+}
+
+.github-logo {
+  height: 5vmin;
+  padding-right: 2vmin
+}
+
+.github-logo:hover {
+  animation: github-logo-spin infinite 0.2s linear; 
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes github-logo-spin {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
